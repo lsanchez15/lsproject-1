@@ -1,0 +1,145 @@
+ 
+body{
+  height: 100%; 
+  margin-top: 0px;
+  font-size: 16px;
+} 
+ 
+ h1 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform:uppercase;
+  line-height: 16px;
+  margin-bottom: 10px;
+
+ }
+ 
+  h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform:uppercase;
+  line-height: 20px;
+  margin-bottom: 10px;
+ }
+ 
+ 
+ 
+  h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-transform:uppercase;
+ }
+ 
+ 
+  h4 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform:uppercase;
+  line-height: 20px;
+  margin-bottom: 10px;
+
+ }
+ 
+ 
+ #header-top ul {
+ font-size: 16px;
+ line-height: 20px;
+ margin-top:20px;
+ list-style: none;
+ text-align: center;
+   }
+   
+   
+#header-top {
+  margin-bottom: 20px;
+
+}   
+
+   
+
+#page-wrapper{
+  width: 875px;
+  margin: 0 auto;
+  margin-top: 0px;
+  border-style: dotted;
+  border-width: 0 1.5px 0 1.5px;
+  border-color: black;
+  padding: 10px 40px 10px 40px;
+}
+
+ul{
+
+ margin-bottom: 10px;
+
+}
+
+
+
+#obj{
+ margin-bottom: 10px;}
+ 
+ 
+#workexp ul li{
+  list-style: circle; 
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 10px;
+
+}
+
+#date {
+ font-size: 14px;
+ float: right;
+
+}
+
+#dates {
+ float: right;
+  }
+  
+  #skillist ul li{
+  list-style: circle; 
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 10px;
+
+}
+
+#header-nav{
+  height: 20px;
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+  background-color: black;
+  padding-left: 130px;
+}
+
+
+#header-nav ul li a{
+  color: white; 
+  text-decoration: none;
+  float: left;
+  margin-left: 15px;
+  padding-left: 20px;
+}
+
+
+ 
+ 
+ #left-column {
+ height: 100px;
+ width: 20px;
+ background-color: black;
+ }
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
