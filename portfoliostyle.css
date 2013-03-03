@@ -1,75 +1,108 @@
   
-  
-
-  
-  
-  
-  
-  h1{
+h1{
   font-size: 26px;
   font-weight: bold;
   line-height: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
- 
-  }
+}
   
-  
-  h2{
+h2{
   font-size: 18px;
   font-weight: bold;
-   line-height: 20px;
+  line-height: 20px;
   margin-bottom: 20px;
-   
-  }
+}
   
-  
-  #page-wrapper{
+#page-wrapper{
   width: 875px;
   margin: 0 auto;
   height: 570px;
+  margin-top: 0px;
+  border-style: dotted;
+  border-width: 0 1.5px 0 1.5px;
+  border-color: black;
+  padding: 10px 40px 10px 40px;
+}
   
-margin-top: 0px;
-border-style: dotted;
- border-width: 0 1.5px 0 1.5px;
- border-color: black;
-padding: 10px 40px 10px 40px;
-
-  
-  }
-  
-  #header-nav{
-
-height: 20px;
-width: 100%;
-margin: 80px 0px 0px 0px;
-background-color: black;
-padding-left: 130px;
-
+#header-nav{
+  height: 20px;
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+  background-color: black;
+  padding-left: 130px;
 }
 
 p{
-text-align:justify;
-text-indent : 10px;
-
+  text-align:justify;
+  text-indent : 10px;
 }
 
+#header-nav ul li a{
+  color: white;
+  text-decoration: none;
+  float: left; 
+  margin-left: 15px;
+  padding-left: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+@media print{
+h1{
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:blue;
+}
+  
+h2{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+  
+#page-wrapper{
+  width: 875px;
+  margin: 0 auto;
+  height: 570px; 
+  margin-top: 0px;
+  border-style: dotted;
+  border-width: 0 1.5px 0 1.5px;
+  border-color: black;
+  padding: 10px 40px 10px 40px;
+}
+  
+#header-nav{
+ height: 20px;
+ width: 100%;
+ margin: 80px 0px 0px 0px;
+ background-color: white;
+ padding-left: 130px;
+ border-style: solid;
+ border-width: 1.5px 1.5px 1.5px 1.5px;
+ border-color: black;
+ }
 
 #header-nav ul li a{
-color: white;
+  color: black;
+  text-decoration: none;
+  float: left;
+  margin-left: 15px;
+  padding-left: 20px;
+}
+  
+#header-nav{
+  height: 20px;
+  width: 100%;
+  margin: 80px 0px 0px 0px;
+  background-color: black; 
+  padding-left: 130px;
+}
 
-text-decoration: none;
-float: left;
-margin-left: 15px;
-padding-left: 20px;
+p{
+  text-align:justify;
+  text-indent : 10px;
+}
 }
